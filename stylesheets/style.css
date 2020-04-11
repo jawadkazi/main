@@ -6,11 +6,11 @@
 
 @font-face {
   font-family: 'Gothic';
-  src: URL('src/yugothil.ttf') format('truetype');
+  src: URL('../src/yugothil.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Franklin';
-  src: URL('src/frahv.ttf') format('truetype');
+  src: URL('../src/frahv.ttf') format('truetype');
 }
 
 h1,h2 {
