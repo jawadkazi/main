@@ -6,16 +6,16 @@
 
 @font-face {
   font-family: 'Gothic';
-  src: URL('yugothil.ttf') format('truetype');
+  src: URL('../src/yugothil.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Franklin';
-  src: URL('frahv.ttf') format('truetype');
+  src: URL('../src/frahv.ttf') format('truetype');
 }
 
 h1,h2 {
     left: 0;
-    font-size: 3vw; 
+    font-size: 3vw;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -30,7 +30,7 @@ h2{
     font-family: Gothic, sans-serif;
 }
 h3{
-    font-size: 15px; 
+    font-size: 15px;
     position: absolute;
     font-family: Gothic;
     top:1vw;
@@ -47,7 +47,7 @@ h4{
     color:#4449;
 }
 
-#Top-left {    
+#Top-left {
     position:absolute;
     left:0vw;
     top:0vw;
