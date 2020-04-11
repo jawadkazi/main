@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+@font-face {
+  font-family: 'Gothic';
+  src: URL('yugothil.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Franklin';
+  src: URL('frahv.ttf') format('truetype');
+}
+
+h1,h2 {
+    left: 0;
+    font-size: 3vw; 
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+h1 {
+    top: 40%;
+    font-family: Franklin;
+    color: #444444;
+}
+h2{
+    top:47%;
+    font-family: Gothic, sans-serif;
+}
+h3{
+    font-size: 15px; 
+    position: absolute;
+    font-family: Gothic;
+    top:1vw;
+    width: 100%;
+    color: #444444;
+}
+
+h4{
+    position:absolute;
+    font-size:13px;
+    font-family:serif;
+    bottom:0vw;
+    right:0vw;
+    color:#4449;
+}
+
+#Top-left {    
+    position:absolute;
+    left:0vw;
+    top:0vw;
+    height:400px;
+}
+
+#Right-mid{
+    position: absolute;
+    right:0vw;
+    top:10vw;
+    height:525px;
+}
+#Bottom-left{
+    position:absolute;
+    left:0vw;
+    bottom:0vw;
+    height:300px;
+}
