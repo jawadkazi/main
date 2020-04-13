@@ -55,15 +55,9 @@ h4{
     width:850px;
 }
 
-#Perched-Birds{
-    position: absolute;
-    right:0vw;
-    top:10vw;
-    height:525px;
-}
 #Family-with-PPE{
     position:absolute;
-    left:0vw;
+    right:0vw;
     bottom:0vw;
     height:300px;
 }
