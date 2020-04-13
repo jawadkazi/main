@@ -14,16 +14,16 @@
 }
 
 h1,h2 {
-    left: 0;
+    left: 10vw;
     font-size: 3vw;
     position: absolute;
-    text-align: center;
     width: 100%;
 }
 h1 {
     top: 40%;
-    font-family: Franklin;
+    font-family: Tahoma, sans-serif;
     color: #444444;
+    font-weight:bold;
 }
 h2{
     top:47%;
