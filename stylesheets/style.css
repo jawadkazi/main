@@ -3,6 +3,12 @@
     padding:0;
     overflow:hidden;
 }
+a, u {
+    text-decoration: none;
+}
+a{
+    position:absolute;
+}
 
 @font-face {
   font-family: 'Gothic';
@@ -47,6 +53,14 @@ h4{
     color:#4449;
 }
 
+#navbar{
+    font-size:18px;
+    font-family:serif;
+    color:#4449;
+    top:1vw;
+    right:0vw;
+    
+}
 #Top-left {
     position:absolute;
     left:0vw;
