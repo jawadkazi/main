@@ -94,8 +94,13 @@ h4{
     color:#4449;
 }
 
- 
+
 #Family-with-PPE{
+  position:absolute;
+  right:0vw;
+  bottom:0vw;
+  height:350px;
+  }
 
 #navbar{
     font-size:18px;
@@ -103,11 +108,4 @@ h4{
     color:#4449;
     top:1vw;
     right:0vw;
-    
-}
-#Top-left {
-    position:absolute;
-    right:0vw;
-    bottom:0vw;
-    height:330px;
 }
