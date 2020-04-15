@@ -19,39 +19,88 @@ a{
   src: URL('../src/frahv.ttf') format('truetype');
 }
 
-h1,h2 {
-    left: 0;
-    font-size: 3vw;
+#Orange-Waves {
+    position:absolute;
+    left:0vw;
+    top:0vw;
+    height:350px;
+    width:850px;
+}
+
+#hashtag {
+  top:5%;
+  left:5%;
+  position:absolute;
+  color:white;
+  font-family: Century Gothic, AppleGothic;
+  font-size:40px;
+}
+
+#site-navigation{
+    text-align: right;
+    font-size: 24px;
     position: absolute;
-    text-align: center;
-    width: 100%;
-}
-h1 {
-    top: 40%;
-    font-family: Franklin;
-    color: #444444;
-}
-h2{
-    top:47%;
-    font-family: Gothic, sans-serif;
-}
-h3{
-    font-size: 15px;
-    position: absolute;
-    font-family: Gothic;
+    font-family: Century Gothic, AppleGothic;
     top:1vw;
     width: 100%;
     color: #444444;
 }
 
+.nav-link {
+  padding-left:1vw;
+  padding-right:2vw;
+
+}
+.nav-link:hover {
+  text-decoration: none;
+}
+
+#landing-slogan {
+    top: 40%;
+    left: 5vw;
+    font-size: 1.76vw;
+    position: absolute;
+    width: 100%;
+    padding-bottom:0;
+}
+
+button {
+  width: 25vw;
+  font-size: 3vw;
+  top:70%;
+  left:5%;
+  position:absolute;
+  background-color: orange;
+  color:white;
+  border: orange 1vw solid;
+}
+
+h1 {
+  font-family:  Gothic, sans-serif;
+  color: #444444;
+}
+
+h2 {
+  font-family: Gothic, sans-serif;
+}
+
 h4{
     position:absolute;
     font-size:13px;
+    font-style:italic;
     font-family:serif;
+    text-align:center;
     bottom:0vw;
-    right:0vw;
     color:#4449;
 }
+
+
+#Family-with-PPE{
+  position:absolute;
+  right:0vw;
+  bottom:0vw;
+  height:350px;
+  }
 
 #navbar{
     font-size:18px;
