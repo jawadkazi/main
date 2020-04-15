@@ -13,34 +13,46 @@
   src: URL('../src/frahv.ttf') format('truetype');
 }
 
-h1,h2 {
-    left: 10vw;
-    font-size: 3vw;
+#landing-slogan {
+    top: 40%;
+    left: 5vw;
+    font-size: 1.76vw;
     position: absolute;
     width: 100%;
 }
+
 h1 {
-    top: 40%;
-    font-family: Tahoma, sans-serif;
-    color: #444444;
-    font-weight:bold;
+  font-family: Century Gothic, AppleGothic;
+  color: #444444;
+  font-weight:bold;
 }
-h2{
-    top:47%;
-    font-family: Gothic, sans-serif;
+
+h2 {
+  font-family: Gothic, sans-serif;
 }
-h3{
-    font-size: 15px;
+#site-navigation{
+    text-align: right;
+    font-size: 24px;
     position: absolute;
-    font-family: Gothic;
+    font-family: Century Gothic, AppleGothic;
     top:1vw;
     width: 100%;
     color: #444444;
 }
 
+.nav-link {
+  padding-left:1vw;
+  padding-right:2vw;
+
+}
+.nav-link:hover {
+  text-decoration: none;
+}
+
 h4{
     position:absolute;
     font-size:13px;
+    font-style:italic;
     font-family:serif;
     text-align:center;
     bottom:0vw;
