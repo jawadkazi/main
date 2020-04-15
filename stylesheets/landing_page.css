@@ -108,4 +108,24 @@ h4{
     color:#4449;
     top:1vw;
     right:0vw;
+
+}
+#Top-left {
+    position:absolute;
+    left:0vw;
+    top:0vw;
+    height:400px;
+}
+
+#Right-mid{
+    position: absolute;
+    right:0vw;
+    top:10vw;
+    height:525px;
+}
+#Bottom-left{
+    position:absolute;
+    left:0vw;
+    bottom:0vw;
+    height:300px;
 }
