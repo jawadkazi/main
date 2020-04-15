@@ -13,6 +13,42 @@
   src: URL('../src/frahv.ttf') format('truetype');
 }
 
+#Orange-Waves {
+    position:absolute;
+    left:0vw;
+    top:0vw;
+    height:350px;
+    width:850px;
+}
+
+#hashtag {
+  top:5%;
+  left:5%;
+  position:absolute;
+  color:white;
+  font-family: Century Gothic, AppleGothic;
+  font-size:40px;
+}
+
+#site-navigation{
+    text-align: right;
+    font-size: 24px;
+    position: absolute;
+    font-family: Century Gothic, AppleGothic;
+    top:1vw;
+    width: 100%;
+    color: #444444;
+}
+
+.nav-link {
+  padding-left:1vw;
+  padding-right:2vw;
+
+}
+.nav-link:hover {
+  text-decoration: none;
+}
+
 #landing-slogan {
     top: 40%;
     left: 5vw;
@@ -41,24 +77,6 @@ h1 {
 h2 {
   font-family: Gothic, sans-serif;
 }
-#site-navigation{
-    text-align: right;
-    font-size: 24px;
-    position: absolute;
-    font-family: Century Gothic, AppleGothic;
-    top:1vw;
-    width: 100%;
-    color: #444444;
-}
-
-.nav-link {
-  padding-left:1vw;
-  padding-right:2vw;
-
-}
-.nav-link:hover {
-  text-decoration: none;
-}
 
 h4{
     position:absolute;
@@ -68,14 +86,6 @@ h4{
     text-align:center;
     bottom:0vw;
     color:#4449;
-}
-
-#Orange-Waves {
-    position:absolute;
-    left:0vw;
-    top:0vw;
-    height:350px;
-    width:850px;
 }
 
 #Family-with-PPE{
