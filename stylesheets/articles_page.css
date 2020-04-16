@@ -1,53 +1,87 @@
-#bg{
-  width: 100%;
-  height: 100%;
+
+
+* {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+a,
+u {
+	text-decoration: none;
+}
+
+a {
+	position: absolute;
+}
+
+@font-face {
+	font-family: 'Gothic';
+	src: URL('../src/yugothil.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Franklin';
+	src: URL('../src/frahv.ttf') format('truetype');
+}
+
+#Orange-Waves {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 350px;
+	width: 850px;
+}
+#main-news{
+  height:30vw;
+  width:40vw;
+  background:#feb31d;
   position:absolute;
+  top:15vw;
+  left:48vw;
+}
+#main-news-text{
+  font-family: Century Gothic, AppleGothic;
+  color:white;
+}
+body{
+    background-color:#fefaef;
+    margin-top:0px;
+    margin-left:0px;
+ }
+#headline{
+  position:absolute;
+  max-width:45vw;
+  color:black;
+  top:18vw;
+  left:3vw;
+  font-size:3vw;
+}
+#wave-bg {
+    width: 100%; /* fall back */
+    height:50vw;
+    width: 100vw;
+    background-position:left top;
+    background-image:url(images/header.jpg);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+#hashtag {
+	top: 5%;
+	left: 5%;
+	position: absolute;
+	color: white;
+	font-family: Century Gothic, AppleGothic;
+	font-size: 40px;
 }
 
-.menu{
-    position: absolute;
-    padding: 30px 0px;
-    width:100%;
-    font-size: 20px;
-    background-color: orange;
-    text-align: right;
-
-}
-.menu a{
-  text-decoration: none;
-  position: relative;
-  font-family: 'Lato', sans-serif;
-  padding: 15px;
-  color: black;
-  transition-duration: .4s;
-
-}
-.menu a:hover{
-  font-size: 25px;
-  transition-duration: .4s;
-}
-#hashtag{
-left: 20px;
-position: absolute;
-color: white;
-font-size: 40px;
-top: 0px;
-}
-#coming_soon{
-  color: white;
-  position: absolute;
-  text-align: center;
-  width: 50%;
-  height: 40%;
-  background-color:orange;
-  border-radius: 10px;
-  top: 300px;
-  left:25%;
-  font-weight: bold;
-}
-#coming_soon a{
-  color: black;
-  text-decoration: none;
-  font-size: 25px;
-
+#navbar {
+  position:absolute;
+	font-size: 18px;
+	font-family: serif;
+	color: #4449;
+	top: 1vw;
 }
