@@ -1,0 +1,33 @@
+.menu{
+    position: absolute;
+    padding: 30px 0px;
+    width:100%;
+    font-size: 20px;
+    text-align: right;
+
+}
+.menu a{
+  text-decoration: none;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  padding: 15px;
+  color: black;
+  transition-duration: .4s;
+
+}
+.menu a:hover{
+  font-size: 25px;
+  transition-duration: .4s;
+}
+#hashtag{
+left: 20px;
+position: absolute;
+font-size: 40px;
+top: 0px;
+}
+#title{
+top: 100px;
+margin: 20px 40%;
+position: absolute;
+font-size: 40px;: 
+}
