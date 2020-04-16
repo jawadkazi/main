@@ -44,11 +44,16 @@ a {
   font-family: Century Gothic, AppleGothic;
   color:white;
 }
+body{
+    background-color:#fefaef;
+    margin-top:0px;
+    margin-left:0px;
+ }
 #headline{
   position:absolute;
   max-width:45vw;
   color:black;
-  top:17vw;
+  top:18vw;
   left:3vw;
   font-size:3vw;
 }
