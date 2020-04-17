@@ -9,7 +9,7 @@
 .menu a{
   text-decoration: none;
   position: relative;
-  font-family: 'Lato', sans-serif;
+  font-family: Century Gothic, AppleGothic;
   padding: 15px;
   color: black;
   transition-duration: .4s;
@@ -24,10 +24,11 @@ left: 20px;
 position: absolute;
 font-size: 40px;
 top: 0px;
+font-family: Century Gothic, AppleGothic;
 }
 #title{
 top: 100px;
 margin: 20px 40%;
 position: absolute;
-font-size: 40px;: 
+font-size: 40px;:
 }
