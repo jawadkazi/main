@@ -3,8 +3,10 @@
   position:absolute;
   top:15vw;
   left:48vw;
+  overflow:hidden;
 }
 #news-shadow{
+  overflow:hidden;
   height:30vw;
   width:40vw;
   background:#feb31d;
@@ -22,7 +24,8 @@
   left:3vw;
 }
 #headline-img{
-  position:absolute; 
+  position:absolute;
+  overflow:hidden;
   top:5%; 
   left:1%;
 }

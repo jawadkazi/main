@@ -1,3 +1,6 @@
+*{
+  overflow:hidden;
+}
 #Orange-Waves {
   position: absolute;
   left: 0vw;
