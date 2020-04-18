@@ -18,14 +18,14 @@
 
 
 button {
-	width: 25vw;
-	font-size: 3vw;
-	top: 70%;
-	left: 5%;
-	position: absolute;
-	background-color: orange;
-	color: white;
-	border: orange 1vw solid;
+  width: 25vw;
+  font-size: 3vw;
+  top: 70%;
+  left: 5%;
+  position: absolute;
+  background-color: orange;
+  color: white;
+  border: orange 1vw solid;
 }
 
 #read-more {
@@ -43,6 +43,7 @@ button {
 #read-more:hover {
   background-color: #feb31d;
   border-color: #feb31d;
+
 }
 
 h1 {
@@ -94,7 +95,9 @@ h4 {
 .menu a:hover {
   font-size: 25px;
   transition-duration: .4s;
+
 }
+
 /*
 #hashtag {
   position: absolute;

@@ -1,11 +1,13 @@
 
-#main-news{
-  height:30vw;
-  width:40vw;
-  background:#feb31d;
+#news-box{
   position:absolute;
   top:15vw;
   left:48vw;
+}
+#news-shadow{
+  height:30vw;
+  width:40vw;
+  background:#feb31d;
 }
 #main-news-text{
   font-family: Century Gothic, AppleGothic;
