@@ -21,3 +21,8 @@
   top:18vw;
   left:3vw;
 }
+#headline-img{
+  position:absolute; 
+  top:5%; 
+  left:1%;
+}
