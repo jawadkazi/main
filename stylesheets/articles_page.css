@@ -1,3 +1,4 @@
+
 #main-news{
   height:30vw;
   width:40vw;
@@ -9,6 +10,7 @@
 #main-news-text{
   font-family: Century Gothic, AppleGothic;
   color:white;
+  font-size:3vw;
 }
 #headline{
   position:absolute;
@@ -16,5 +18,4 @@
   color:black;
   top:18vw;
   left:3vw;
-  font-size:3vw;
 }
