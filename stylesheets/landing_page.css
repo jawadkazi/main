@@ -43,6 +43,7 @@ button {
 #read-more:hover {
   background-color: #feb31d;
   border-color: #feb31d;
+  cursor:pointer;
 
 }
 
