@@ -14,7 +14,6 @@ u {
 a {
 	position: absolute;
 }
-
 @font-face {
 	font-family: 'Gothic';
 	src: URL('../src/yugothil.ttf') format('truetype');
