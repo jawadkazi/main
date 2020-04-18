@@ -31,7 +31,7 @@ button {
 #read-more {
   width: 25vw;
   font-size: 3vw;
-  top: 70%;
+  top: 63%;
   left: 5%;
   position: absolute;
   background-color: orange;
@@ -108,7 +108,9 @@ h4 {
   font-family: Century Gothic, AppleGothic;
 }
 */
-
+#title-slogan{
+  font-size:50px;
+}
 #Top-left {
   position: absolute;
   left: 0vw;
