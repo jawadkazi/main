@@ -32,3 +32,9 @@ margin: 20px 40%;
 position: absolute;
 font-size: 40px;:
 }
+.contact-info{
+  font-family:monospace;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: orange;
+}
+}
