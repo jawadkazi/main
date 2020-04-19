@@ -34,7 +34,7 @@ font-size: 40px;:
 }
 .contact-info{
   font-family:monospace;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: orange;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 }
