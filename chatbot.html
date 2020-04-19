@@ -12,11 +12,7 @@
 </head>
 
 <body style="background-color:#ffedbd">
-
-  <img id="bg" src="img/BGimg.png" alt="background">
-  <h4 style="position:absolute; font-size:40px;overflow-y:hidden; left:15%;top:25%;">A Discord chat-bot highlighting stats and our achievements.</h4>
-  <center style="position:absolute;font-size:20px; overflow-y:hidden; left:15%; top:35%;width:68%;">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut pulvinar enim, eu maximus odio. Nunc tincidunt metus id hendrerit egestas. Donec ultrices, enim vel luctus molestie, lacus tellus vestibulum lacus, ut iaculis leo ex. </center>
+  <img src="img/BGimg.png" alt="background" style="width:100%; position:absolute;height:102vh;">
 
   <div class="menu">
     <a href="index.html" id="hashtag">#ACONTAINEDCALAMITY</a>
@@ -26,23 +22,55 @@
     <a href="about.html">About</a>
     <a href="contact.html">Contact</a>
   </div>
-  <div class="container-fluid">
+  <div class="container-fluid" style="width:100%;overflow-y:hidden;height:120vh;">
+<!--
+    <div class="row" style="position:relative;top:2vh;height:10vh;">
+        <a href="index.html" style="top:10vh;height:10vh;">#ACONTAINEDCALAMITY</a>
 
-    <div class="row" style="overflow-y:hidden; height:45vh;position:absolute;left:15vw;top:50vh;">
-      <div style="width:35vw;  background:red; overflow-y:hidden;"></div>
+      <div class="menu-rel">
+        <a href="article.html">Articles</a>
+        <a href="projects.html">Projects</a>
+        <a href="chatbot.html">Chat</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>-->
+    <div class="row" style="left:15%;top:18vh;position:relative;overflow:visible;">
+      <h4 style="font-size:40px;overflow:visible;max-width:80vw;">A Discord chat-bot highlighting stats and our achievements.</h4>
     </div>
-    <div class="row" style="overflow-y:hidden; height:150px;position:absolute;left:55vw;top:50vh;">
-      <div style="width:25vw;  background:blue; overflow-y:hidden;"></div>
+    <div class="row" style="position:relative;top:20vh;">
+      <center style="position:relative;font-size:20px; overflow-y:visible; left:15%;top:35%;width:68%;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut pulvinar enim, eu maximus odio. Nunc tincidunt metus id hendrerit egestas. Donec ultrices, enim vel luctus molestie, lacus tellus vestibulum lacus, ut iaculis leo ex. </center>
+    </div>
+    <div class="row" style="overflow-y:auto; height:60vh;position:relative;left:15vw;top:35vh;">
+      <div class="col-6" style="overflow:visible;position:relative;width:25vw;">
+        <div style="width:35vw;  background:red; overflow-y:visible;height:40vh;">
+          <p style="color:white;top:17vh;position:relative;font-size:40px;max-width:20vw;font-weight:900;left:9vw;">DOWNLOAD</p>
+        </div>
+      </div>
+      <div class="col-6" style="position:relative;right:7vw;">
+        <div class="row" style="overflow:hidden; height:18vh;">
+          <div style="width:25vw;  background:blue; overflow-y:hidden;">
+            <p style="color:white;top:1vh;position:relative;font-size:30px;max-width:16vw;font-weight:900;left:3vw;">DONATE</p>
+          </div>
+        </div>
+
+        <div class="row" style="overflow-y:hidden; height:150px;">
+          <div style="width:25vw;  background:green; overflow-y:hidden;">
+            <p style="color:white;top:7vh;font-size:30px;max-width:16vw;font-weight:900;left:3vw;">READ ABOUT IT</p>
+          </div>
+        </div>
+      </div>
+
     </div>
 
-    <div class="row" style="overflow-y:hidden; height:150px;position:absolute;left:55vw;top:75vh;">
-      <div style="width:25vw;  background:green; overflow-y:hidden;"></div>
-    </div>
-    
-    <div class="row" style="overflow-y:hidden; height:150px;position:absolute;top:100vh;">
+
+    <div class="row" style="overflow-y:hidden; height:150px;position:relative;top:25vh;">
       <div style="width:100vw;  background:black; overflow-y:hidden;"></div>
     </div>
   </div>
+
+  <!--Red is download block. Blue is donate and green is volunteer.-->
   <!--
 <span id="coming_soon">
   <h1>Coming Soon</h1>
@@ -50,4 +78,6 @@
   <a href="https://helpwithcovid.com/">helpwithcovid.com</a>
 </span>
 -->
-</body></html>
+</body>
+
+</html>
